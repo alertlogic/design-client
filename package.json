@@ -1,0 +1,27 @@
+{
+  "name": "@al/design",
+  "version": "0.1.0",
+  "description": "AL Design Library",
+  "author": {
+    "name": "Barry Skidmore",
+    "email": "bskidmore@alertlogic.com"
+  },
+  "keywords": [
+    "Alert Logic",
+    "Client",
+    "Design"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alertlogic/design-client.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alertlogic/design-client/issues"
+  },
+  "homepage": "https://github.com/alertlogic/design-client#readme"
+}

@@ -1,0 +1,14 @@
+/* Variables for SCSS files */
+/* Global text color on `<body>`.*/
+@import "palette";
+
+$primary-color: mat-color($al-gray,500);
+$accent-color: mat-color($al-smokeBlue,500);
+$gray:          mat-color($al-gray,50);
+$text-color:    mat-color($al-gray,900);
+
+$mat-font-family: 'Open Sans', Arial, sans-serif !important;
+
+
+$template_1 : "al-light-theme";
+$template_2 : "al-dark-theme";

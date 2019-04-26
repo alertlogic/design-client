@@ -1,23 +1,29 @@
 {
   "name": "@al/design",
-  "version": "0.1.1",
-  "description": "AL Design Library",
+  "version": "0.1.2",
+  "description": "Alert Logic core themes and styling resources",
   "author": {
-    "name": "Barry Skidmore",
-    "email": "bskidmore@alertlogic.com"
+    "name": "Robert Parker",
+    "email": "robert.parker@alertlogic.com"
   },
+  "maintainers": [
+    {
+      "name": "Robert Parker",
+      "email": "robert.parker@alertlogic.com"
+    },
+    {
+      "name": "Alert Logic NPM Team",
+      "email": "npm@alertlogic.com"
+    }
+  ],
   "keywords": [
     "Alert Logic",
     "Client",
     "Design"
   ],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alertlogic/design-client.git"
+    "url": "https://github.com/alertlogic/design-client"
   },
   "license": "MIT",
   "bugs": {

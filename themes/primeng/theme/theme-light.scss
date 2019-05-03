@@ -1,0 +1,25 @@
+@import '../sass/theme/palette';
+@import '../sass/theme/utility';
+
+/* Primary */
+$primaryColor:al-color($al-smokeBlue, 500);
+$primaryDarkColor:al-color($al-smokeBlue, 700);
+$primaryLightColor:al-color($al-smokeBlue, 300);
+$primaryLightestColor:al-color($al-smokeBlue, 100);
+$primaryTextColor:#FFF;
+
+/* Accent */
+$accentColor:al-color($al-gray, 500);
+$accentDarkColor:al-color($al-gray, 700);
+$accentLightColor:al-color($al-gray, 300);
+$accentLightestColor:al-color($al-gray, 50);
+$accentTextColor:#FFF;
+
+/* primaryAction */
+$primaryActionColor:al-color($al-amber, 500);
+$primaryActionDarkColor:al-color($al-amber, 700);
+$primaryActionLightColor:al-color($al-amber, 300);
+$primaryActionLightestColor:al-color($al-amber, 50);
+$primaryActionTextColor:#FFF;
+
+@import '../sass/theme/_theme';

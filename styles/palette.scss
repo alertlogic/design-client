@@ -22,7 +22,8 @@ $al-yellow: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastDark,
-    900: $al-contrastDark));
+    900: $al-contrastDark)
+);
 
 $al-amber: (
   500: #FFB74D,
@@ -45,7 +46,8 @@ $al-amber: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-orange: (
   500: #F78C1E,
@@ -68,8 +70,8 @@ $al-orange: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
-
+    900: $al-contrastLight)
+);
 
 $al-red: (
   500: #EF534F,
@@ -92,7 +94,8 @@ $al-red: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-purple: (
   500: #BA67C8,
@@ -115,7 +118,8 @@ $al-purple: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-gray: (
   500: #535353,
@@ -138,7 +142,8 @@ $al-gray: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-blue: (
   500: #3E82F7,
@@ -161,7 +166,8 @@ $al-blue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-smokeBlue: (
   500: #57A0D7,
@@ -184,7 +190,8 @@ $al-smokeBlue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
+    900: $al-contrastLight)
+);
 
 $al-green: (
   500: #81C783,
@@ -207,19 +214,24 @@ $al-green: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight));
-$al-professional: (
-  500: #028BA3,
+    900: $al-contrastLight)
 );
+
 $al-essentials: (
-  500: #3FC6F1,
-);
-$al-enterprise: (
   400: #03638A,
   500: #025070,
 );
 
-$paletteMap: ('al-orange':$al-orange,
+$al-professional: (
+  500: #028BA3,
+);
+
+$al-enterprise: (
+  500: #3FC6F1,
+);
+
+$paletteMap: (
+  'al-orange':$al-orange,
   'al-amber':$al-amber,
   'al-yellow':$al-yellow,
   'al-smokeBlue':$al-smokeBlue,
@@ -228,6 +240,7 @@ $paletteMap: ('al-orange':$al-orange,
   'al-green':$al-green,
   'al-red':$al-red,
   'al-gray':$al-gray,
-  'al-teal':$al-teal,
-  'al-lightBlue':$al-lightBlue,
-  'al-darkBlue':$al-darkBlue);
+  'al-essentials':$al-essentials,
+  'al-professional':$al-professional,
+  'al-enterprise':$al-enterprise
+);

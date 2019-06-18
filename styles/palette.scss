@@ -1,9 +1,8 @@
 $al-contrastLight: #FFF;
 $al-contrastDark: #424242;
 
-$al-yellow: (
-  500: #FFD54F,
-   50: #FFFAEC,
+$al-yellow: (500: #FFD54F,
+  50: #FFFAEC,
   100: #FFF2C9,
   200: #FFE9A6,
   300: #FFE183,
@@ -12,8 +11,7 @@ $al-yellow: (
   700: #FFD800,
   800: #FFED18,
   900: #FFF36C,
-  contrast: (
-     50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastDark,
     300: $al-contrastLight,
@@ -22,13 +20,10 @@ $al-yellow: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastDark,
-    900: $al-contrastDark
-  )
-);
+    900: $al-contrastDark));
 
-$al-amber: (
-  500: #FFB74D,
-   50: #FFF7EC,
+$al-amber: (500: #FFB74D,
+  50: #FFF7EC,
   100: #FFE9C8,
   200: #FFDAA5,
   300: #FFCC81,
@@ -37,8 +32,7 @@ $al-amber: (
   700: #FFA100,
   800: #FF9900,
   900: #FF9100,
-  contrast: (
-     50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastDark,
     300: $al-contrastLight,
@@ -47,13 +41,10 @@ $al-amber: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-orange: (
-  500: #F78C1E,
-   50: #FFF3DF,
+$al-orange: (500: #F78C1E,
+  50: #FFF3DF,
   100: #FFE1AF,
   200: #FFCD7A,
   300: #FFB840,
@@ -62,8 +53,7 @@ $al-orange: (
   700: #F06C00,
   800: #F05F11,
   900: #E65100,
-  contrast: (
-     50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastDark,
     300: $al-contrastLight,
@@ -72,14 +62,11 @@ $al-orange: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
 
-$al-red: (
-  500: #EF534F,
-   50: #FFEBEE,
+$al-red: (500: #EF534F,
+  50: #FFEBEE,
   100: #FFCDD2,
   200: #EF9A9A,
   300: #F48683,
@@ -88,8 +75,7 @@ $al-red: (
   700: #D32F2F,
   800: #C62828,
   900: #B71C1C,
-  contrast: (
-     50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastLight,
     300: $al-contrastLight,
@@ -98,12 +84,9 @@ $al-red: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-purple: (
-  500: #BA67C8,
+$al-purple: (500: #BA67C8,
   50: #F7EEF9,
   100: #E9D0EE,
   200: #DCB2E3,
@@ -113,8 +96,7 @@ $al-purple: (
   700: #9652A1,
   800: #8A4B94,
   900: #7E4587,
-  contrast: (
-    50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastLight,
     300: $al-contrastLight,
@@ -123,23 +105,19 @@ $al-purple: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-gray: (
-  500: #535353,
+$al-gray: (500: #535353,
   50: #EDEDED,
   100: #CBCBCB,
   200: #A8A8A8,
   300: #868686,
   400: #6C6C6C,
   600: #474747,
-  700: #3B3B3B,
+  700: #3C3C3C,
   800: #2E2E2E,
   900: #212121,
-  contrast: (
-    50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastLight,
     200: $al-contrastLight,
     300: $al-contrastLight,
@@ -148,12 +126,9 @@ $al-gray: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-blue: (
-  500: #3E82F7,
+$al-blue: (500: #3E82F7,
   50: #EAF1FE,
   100: #C4D8FC,
   200: #9DC0FA,
@@ -163,8 +138,7 @@ $al-blue: (
   700: #3774DE,
   800: #346ED1,
   900: #3167C4,
-  contrast: (
-    50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastLight,
     300: $al-contrastLight,
@@ -173,12 +147,9 @@ $al-blue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-smokeBlue: (
-  500: #57A0D7,
+$al-smokeBlue: (500: #57A0D7,
   50: #EDF4FA,
   100: #CBE2F2,
   200: #AACFEA,
@@ -188,8 +159,7 @@ $al-smokeBlue: (
   700: #4B8CBD,
   800: #4682B0,
   900: #4179A3,
-  contrast: (
-    50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastLight,
     300: $al-contrastLight,
@@ -198,12 +168,9 @@ $al-smokeBlue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
+    900: $al-contrastLight));
 
-$al-green: (
-  500: #81C783,
+$al-green: (500: #81C783,
   50: #F2F9F2,
   100: #D9EED9,
   200: #C0E3C1,
@@ -213,8 +180,7 @@ $al-green: (
   700: #71AD73,
   800: #68A16A,
   900: #609462,
-  contrast: (
-     50: $al-contrastDark,
+  contrast: (50: $al-contrastDark,
     100: $al-contrastDark,
     200: $al-contrastDark,
     300: $al-contrastLight,
@@ -223,31 +189,16 @@ $al-green: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight
-  )
+    900: $al-contrastLight));
+$al-professional: (500: #028BA3,
+);
+$al-essentials: (500: #3FC6F1,
+);
+$al-enterprise: (400: #03638A,
+  500: #025070,
 );
 
-$ir-blue: (
-  300: #C3C6B9,
-  400: #D5D6D2,
-  500: #394B61,
-  600: #3C3C3C,
-  700: #6C6C6C,
-  800: #2A3849,
-  900: #17202A,
-  contrast: (
-    300: $al-contrastLight,
-    400: $al-contrastLight,
-    500: $al-contrastLight,
-    600: $al-contrastLight,
-    700: $al-contrastLight,
-    800: $al-contrastLight,
-    900: $al-contrastLight
-  )
-);
-
-$paletteMap: (
-  'al-orange':$al-orange,
+$paletteMap: ('al-orange':$al-orange,
   'al-amber':$al-amber,
   'al-yellow':$al-yellow,
   'al-smokeBlue':$al-smokeBlue,
@@ -255,5 +206,7 @@ $paletteMap: (
   'al-purple':$al-purple,
   'al-green':$al-green,
   'al-red':$al-red,
-  'al-gray':$al-gray
-);
+  'al-gray':$al-gray,
+  'al-teal':$al-teal,
+  'al-lightBlue':$al-lightBlue,
+  'al-darkBlue':$al-darkBlue);

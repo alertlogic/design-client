@@ -31470,6 +31470,7 @@ body .ui-terminal .ui-terminal-input {
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
+  -webkit-font-smoothing: unset;
   /* Buttons */
   /* Default Button */
   /* Default Button */
@@ -32707,6 +32708,9 @@ body .ui-tooltip.ui-tooltip-left .ui-tooltip-arrow {
 body .ui-tooltip.ui-tooltip-right .ui-tooltip-arrow {
   left: 1px;
   border-right-color: #535353;
+}
+body .material-icons {
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=theme-light.css.map */

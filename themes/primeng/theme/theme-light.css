@@ -31559,6 +31559,10 @@ body .ui-listbox .ui-listbox-header .ui-listbox-filter-icon .pi {
   display: flex;
   align-items: flex-end;
 }
+body a.ui-button {
+  padding: 0;
+  line-height: 2.25em;
+}
 body .ui-button,
 body .ui-datepicker-buttonpane > button {
   background-color: #535353;
@@ -32512,6 +32516,11 @@ body .ui-paginator .ui-paginator-pages a:not(.ui-state-active):hover {
 body .ui-paginator .ui-paginator-pages a.ui-state-active {
   color: #FFF;
   background-color: #57a0d7;
+}
+@media screen and (max-width: 600px) {
+  body .ui-dialog.ui-dialog-responsive {
+    width: 90% !important;
+  }
 }
 body .ui-dialog .ui-dialog-titlebar {
   background-color: #ffffff;

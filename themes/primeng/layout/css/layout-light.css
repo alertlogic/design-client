@@ -3096,6 +3096,10 @@ a:hover {
   }
 }
 /* Add your customizations of layout here */
+body {
+  -webkit-font-smoothing: unset;
+}
+
 .layout-wrapper .layout-main {
   -moz-transition: margin-left 0.3s;
   -o-transition: margin-left 0.3s;

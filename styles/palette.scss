@@ -1,5 +1,5 @@
 $al-contrastLight: #FFF;
-$al-contrastDark:  #424242;
+$al-contrastDark: #424242;
 
 $al-yellow: (
   500: #FFD54F,
@@ -22,8 +22,9 @@ $al-yellow: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastDark,
-    900: $al-contrastDark)
-);
+    900: $al-contrastDark
+    )
+  );
 
 $al-amber: (
   500: #FFB74D,
@@ -46,8 +47,9 @@ $al-amber: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-orange: (
   500: #F78C1E,
@@ -70,8 +72,9 @@ $al-orange: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-red: (
   500: #EF534F,
@@ -94,8 +97,9 @@ $al-red: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-purple: (
   500: #BA67C8,
@@ -118,8 +122,9 @@ $al-purple: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-gray: (
   500: #535353,
@@ -142,8 +147,9 @@ $al-gray: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-blue: (
   500: #3E82F7,
@@ -166,8 +172,9 @@ $al-blue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-smokeBlue: (
   500: #57A0D7,
@@ -190,8 +197,9 @@ $al-smokeBlue: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
 
 $al-green: (
   500: #81C783,
@@ -214,8 +222,84 @@ $al-green: (
     600: $al-contrastLight,
     700: $al-contrastLight,
     800: $al-contrastLight,
-    900: $al-contrastLight)
-);
+    900: $al-contrastLight
+    )
+  );
+
+$db-slate: (
+  500: #394B61,
+   50: #EBECEF,
+  100: #C3C8CF,
+  200: #9BA4AF,
+  300: #748090,
+  400: #566578,
+  600: #324153,
+  700: #2A3849,
+  800: #1E2B38,
+  900: #17202A,
+  contrast: (
+     50: $al-contrastDark,
+    100: $al-contrastDark,
+    200: $al-contrastLight,
+    300: $al-contrastLight,
+    400: $al-contrastLight,
+    500: $al-contrastLight,
+    600: $al-contrastLight,
+    700: $al-contrastLight,
+    800: $al-contrastLight,
+    900: $al-contrastLight
+    )
+  );
+
+$db-blue: (
+  500: #6883A4,
+   50: #EFF2F6,
+  100: #D1D9E3,
+  200: #B3C1D1,
+  300: #95A8BF,
+  400: #7E95B1,
+  600: #536984,
+  700: #44576E,
+  800: #3A4B5E,
+  900: #344354,
+  contrast: (
+     50: $al-contrastDark,
+    100: $al-contrastDark,
+    200: $al-contrastLight,
+    300: $al-contrastLight,
+    400: $al-contrastLight,
+    500: $al-contrastLight,
+    600: $al-contrastLight,
+    700: $al-contrastLight,
+    800: $al-contrastLight,
+    900: $al-contrastLight
+    )
+  );
+
+$db-charts: (
+  500: #1592E6,
+   50: #5C3A49,
+  100: #793C49,
+  200: #A13E48,
+  300: #C84049,
+  400: #F04349,
+  600: #1688D6,
+  700: #187FC6,
+  800: #1A76B6,
+  900: #1F6597,
+  contrast: (
+     50: $al-contrastDark,
+    100: $al-contrastDark,
+    200: $al-contrastLight,
+    300: $al-contrastLight,
+    400: $al-contrastLight,
+    500: $al-contrastLight,
+    600: $al-contrastLight,
+    700: $al-contrastLight,
+    800: $al-contrastLight,
+    900: $al-contrastLight
+    )
+  );
 
 $al-essentials: (
   400: #03638A,
@@ -230,8 +314,7 @@ $al-enterprise: (
   500: #3FC6F1,
 );
 
-$paletteMap: (
-  'al-orange':$al-orange,
+$paletteMap: ('al-orange':$al-orange,
   'al-amber':$al-amber,
   'al-yellow':$al-yellow,
   'al-smokeBlue':$al-smokeBlue,
@@ -242,5 +325,7 @@ $paletteMap: (
   'al-gray':$al-gray,
   'al-essentials':$al-essentials,
   'al-professional':$al-professional,
-  'al-enterprise':$al-enterprise
-);
+  'al-enterprise':$al-enterprise,
+  'db-charts':$db-charts,
+  'db-slate':$db-slate,
+  'db-blue':$db-blue);
